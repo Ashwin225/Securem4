@@ -175,8 +175,8 @@ a {
     right: 0;
     bottom: 0;
     left: 0;
-    background: linear-gradient(#08c7e4, #17a2b8);
-    opacity: 0.5; /* Adjust the opacity as needed */
+    background: rgb(56, 160, 235);
+    opacity: 0.7; /* Adjust the opacity as needed */
 }
 
 
@@ -231,7 +231,8 @@ font-family: 'Bellota Text', display;
     .center-buttons{
         display: flex;
         flex-direction: column;
-        margin-left:63px;
+        align-items: center; /* Center horizontally */
+        text-align: center; /* Center text within buttons */
     }
 }
 @media (max-width: 767px){
@@ -240,6 +241,13 @@ font-family: 'Bellota Text', display;
     }
 }
 
+@media (max-width: 767px) {
+    .came {
+        text-align: center; /* Center-align the text */
+       
+       
+    }
+}
 
 
 /* section_three css */
